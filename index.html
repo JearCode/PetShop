@@ -4,58 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
     <title>PetShop</title>
 </head>
 <body>
 
     <header>
 
-        <p>Grandes ofertas en comederos</p>
-        <nav id="menu-regional">
+        <section class="header-container-top">
+            <p>Grandes ofertas en comederos</p>
+            <nav>
 
-            <ul>
+                <ul class="header-lista">
 
-                <li><a>Español</a></li>
-                <li><a>ARG$</a></li>
+                    <li><a>Español</a></li>
+                    <li><a>$ARG</a></li>
 
-            </ul>
+                </ul>
 
-        </nav>
+            </nav>
+        </section>
+        <section class="header-container-bottom">
+            <img src="./img/logo.png" alt="Logo: Front Cat & DOG">
 
-        <img src="./img/logo.png" alt="Logo: Front Cat & DOG">
+            <nav>
 
-        <nav id="menu-principal">
+                <ul  class="nav-links">
 
-            <ul>
+                    
+                    <li><img src="./img/menu-patita.png" alt="Patita"> <span>Categorías</span></li>
+                    <li><img src="./img/menu-patita.png" alt="Patita"> <span>Pets</span></li>
+                    <li><img src="./img/menu-patita.png" alt="Patita"> <span>Nosotros</span></li>
+                    <li><img src="./img/menu-patita.png" alt="Patita"> <span>Contáctanos</span></li>
+                    
 
-                
-                <li><a href="#"><img src="./img/menu-patita.png" alt="Patita"> Categorías</a></li>
-                <li><a href="#"><img src="./img/menu-patita.png" alt="Patita"> Pets</a></li>
-                <li><a href="#"><img src="./img/menu-patita.png" alt="Patita"> Nosotros</a></li>
-                <li><a href="#"><img src="./img/menu-patita.png" alt="Patita"> Contáctanos</a></li>
-                
+                </ul>
 
-            </ul>
-
-        </nav>
+            </nav>
+        </section>
 
     </header>
     
     <main>
 
-        <section id="banner">
+        <section class="banner">
 
-
-            <img src="./img/background.png" alt="Comedero con pepas para perritos, junto a huesos comestibles de cuero vacuno para perros.">
-            <h1>¡Es un placer tenerte aquí!</h1>
-            <h2>¡Comederos en descuento!</h2>
-            <h3>COMEDEROS</h3>
-
-
+            <div>
+                <h1>¡Es un placer tenerte aquí!</h1>
+                <h2>¡Comederos en descuento!</h2>
+                <button>COMEDEROS</button>
+            </div>
         </section>
 
 
-        <section id="productos">
+        <section class="productos">
 
             <img src="./img/patita.png" alt="Patita de perrito">
             <p>Productos Destacados</p>
@@ -78,7 +80,33 @@
 
     <footer>
 
-        <p>Todos los derechos reservados Front End</p>
+        <section class="before-copy">
+
+
+            <img src="./img/location.png" alt="icono de localización">
+            <p>
+                Localidad <br>
+                <span>Calle - Provincia</span>
+            </p>
+            <img src="./img/phone.png" alt="icono de teléfono">
+            <p>
+                Teléfono <br>
+                <span>Número de teléfono</span>
+            </p>
+            <img src="./img/mail.png" alt="icono de mail">
+            <p>
+                Correo Electrónico <br>
+                <span>Dirección de correo</span>
+            </p>
+
+
+        </section>
+        <section class="copy">
+
+            <p>Todos los derechos reservados Front End</p>
+
+        </section>
+        
 
     </footer>
 
