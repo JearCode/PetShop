@@ -223,6 +223,10 @@ body {
   align-content: space-around;
 }
 
+.phone-responsive{
+  display: none;
+}
+
 .text-address{
   margin-left: 20px;
   margin-top: 10px;
@@ -248,9 +252,7 @@ body {
   font-weight: 600;
 }
 
-.phone-responsive{
-  display: none;
-}
+
 
 @media screen and (max-width: 480px){
   /* Smartphones */
@@ -269,7 +271,13 @@ body {
   }
 
   .discount{
-    margin: 10px 0;
+    margin: 5px 0;
+  }
+
+  .discount h1{
+    padding: 1rem 1.5rem;
+    font-weight: 400;
+    font-size: 1.8rem;
   }
   .discount h3{
     color: white;
