@@ -311,5 +311,10 @@ body {
   .copyright{
     padding: 3px 0;
   }
+
+  .info-subs p{
+    font-size: 1.1rem;
+
+  }
  
 }
